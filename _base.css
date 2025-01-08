@@ -4,7 +4,12 @@
   --white: hsl(0, 0%, 100%);
   --slate300: hsl(212, 45%, 89%);
   --slate500: hsl(216, 15%, 48%);
-  --clate900: hsl(218, 44%, 22%);
+  --slate900: hsl(218, 44%, 22%);
+
+  /* Fonts */
+  --font: Outfit;
+  --text: 400;
+  --text-bold: 700;
 }
 
 * {
@@ -12,7 +17,7 @@
 }
 
 body {
-  font-family: system-ui;
+  font-family: Outfit, system-ui;
   margin: 0;
 }
 
