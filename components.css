@@ -44,4 +44,5 @@ body {
   color: var(--slate500);
   width: 256px;
   display: inline-block; /*enables alignment with text-align in .wrapper*/
+  margin-top: 0;
 }
