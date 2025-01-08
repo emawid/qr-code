@@ -32,6 +32,8 @@ body {
   line-height: 120%;
   margin-top: 24px;
   color: var(--slate900);
+  width: 256px;
+  display: inline-block; /*enables alignment with text-align in .wrapper*/
 }
 
 #text {
@@ -40,4 +42,6 @@ body {
   line-height: 140%;
   letter-spacing: 0.2px;
   color: var(--slate500);
+  width: 256px;
+  display: inline-block; /*enables alignment with text-align in .wrapper*/
 }
